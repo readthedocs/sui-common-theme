@@ -1,15 +1,41 @@
-/* Font Awesome */
-@import "~@fortawesome/fontawesome-pro/less/fontawesome";
-@import "~@fortawesome/fontawesome-pro/less/duotone";
-@import "~@fortawesome/fontawesome-pro/less/brands";
-@import "~@fortawesome/fontawesome-pro/less/_duotone-icons";
-
-/* SUI overrides for Font Awesome Pro sourced icons */
-.fad.icon {
-  font-family: "Font Awesome 6 Duotone";
+/**
+ * FontAwesome
+ *
+ * These styles come from the webkit that will be loaded separately. We have to
+ * work to force SUI to not load any extra files here. See `icon.variables`
+ */
+i.icon.icon.icon.far,
+i.icon.icon.icon.fa-regular {
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 400;
 }
-.fab.icon {
+i.icon.icon.icon.fas,
+i.icon.icon.icon.fa-solid {
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 900;
+}
+i.icon.icon.icon.fad,
+i.icon.icon.icon.fa-duotone {
+  font-family: "Font Awesome 6 Duotone";
+  font-weight: 900;
+}
+i.icon.icon.icon.fab,
+i.icon.icon.icon.fa-brands {
   font-family: "Font Awesome 6 Brands";
+  font-weight: 900;
+}
+
+/**
+ * Fix dropdown icons using FA natively
+ */
+.ui.form .field > .selection.dropdown {
+  & .dropdown.icon,
+  & .search.icon,
+  & .delete.icon {
+    // SUI includes icomoon here too
+    font-family: "Font Awesome 6 Pro", "Dropdown", sans-serif;
+    font-weight: 900;
+  }
 }
 
 /* Light */
