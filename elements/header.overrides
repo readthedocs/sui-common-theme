@@ -1,0 +1,4 @@
+.ui.monospace.header {
+  font-family: @monospaceFontName;
+  font-weight: 500;
+}
