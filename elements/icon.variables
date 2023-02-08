@@ -2,3 +2,4 @@
  * through overrides */
 @src: "";
 @fallbackSRC: "";
+@importIcons: false;
