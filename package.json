@@ -18,6 +18,9 @@
     "url": "https://github.com/readthedocs/sui-common-theme/issues"
   },
   "homepage": "https://github.com/readthedocs/sui-common-theme#readme",
+  "dependencies": {
+    "fomantic-ui-less": "^2.9.2"
+  },
   "devDependencies": {
     "prettier": "^2.7.1"
   },
