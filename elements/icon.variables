@@ -1,5 +1,30 @@
-/* Null src to skip supplied Font Awesome, use from node_modules instead,
- * through overrides */
-@src: "";
-@fallbackSRC: "";
+// Skip importing files, we are currently using the Font Awesome kit
 @importIcons: false;
+
+// Defaults to match the kit usage. If we revert to using the native icon
+// support in FUI, we can remove these and rely on the defaults
+// This is equivalent to FA6 Solid:
+@fontName: "Font Awesome 6 Pro";
+@normal: 900;
+
+@outlineFontName: "Font Awesome 6 Outline";
+@thinFontName: "Font Awesome 6 Thin";
+@brandFontName: "Font Awesome 6 Brands";
+@duotoneFontName: "Font Awesome 6 Duotone";
+
+// Disable all of the icon maps for now too. We started using FA6 using hosted
+// kits and this uses the default FA naming. These are just duplicate names that
+// consume a fair amount of the bundle size.
+@icon-map: {};
+@icon-aliases-map: {};
+@icon-outline-map: {};
+@icon-outline-aliases-map: {};
+@icon-thin-map: {};
+@icon-thin-aliases-map: {};
+@icon-brand-map: {};
+@icon-brand-aliases-map: {};
+@icon-duotone-map: {};
+@icon-duotone-secondary-map: {};
+@icon-duotone-aliases-map: {};
+@icon-duotone-secondary-aliases-map: {};
+@icon-deprecated-map: {};
