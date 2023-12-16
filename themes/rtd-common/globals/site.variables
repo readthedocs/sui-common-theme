@@ -1,7 +1,3 @@
-// Font path override, using the default theme font path for now.
-@fontPath: "../../../themes/default/assets/fonts";
-@importGoogleFonts: False;
-
 // Spacing
 @baseVerticalMargin: 20px;
 @floatingShadow: -1px 1px 6px rgba(0, 0, 0, 0.15);
@@ -20,6 +16,12 @@
 @linkColor: @primaryColor;
 
 // Fonts
+@importGoogleFonts: false;
+@importFonts: false;
+
+// Font path override, using the default theme font path for now.
+@fontPath: "../../../themes/default/assets/fonts";
+
 @bold: 600;
 @emSize: 16px;
 @fontSize: @emSize;
