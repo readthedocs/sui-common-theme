@@ -15,16 +15,33 @@
 // Disable all of the icon maps for now too. We started using FA6 using hosted
 // kits and this uses the default FA naming. These are just duplicate names that
 // consume a fair amount of the bundle size.
-@icon-map: {};
-@icon-aliases-map: {};
-@icon-outline-map: {};
-@icon-outline-aliases-map: {};
-@icon-thin-map: {};
-@icon-thin-aliases-map: {};
-@icon-brand-map: {};
-@icon-brand-aliases-map: {};
-@icon-duotone-map: {};
-@icon-duotone-secondary-map: {};
-@icon-duotone-aliases-map: {};
-@icon-duotone-secondary-aliases-map: {};
-@icon-deprecated-map: {};
+@icon-map: {
+};
+@icon-aliases-map: {
+  // We need the aliases, as the classes are added by FUI JS
+  delete: "\f00d";
+  dropdown: "\f0d7";
+  search: "\f002";
+};
+@icon-outline-map: {
+};
+@icon-outline-aliases-map: {
+};
+@icon-thin-map: {
+};
+@icon-thin-aliases-map: {
+};
+@icon-brand-map: {
+};
+@icon-brand-aliases-map: {
+};
+@icon-duotone-map: {
+};
+@icon-duotone-secondary-map: {
+};
+@icon-duotone-aliases-map: {
+};
+@icon-duotone-secondary-aliases-map: {
+};
+@icon-deprecated-map: {
+};
