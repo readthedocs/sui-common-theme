@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/readthedocs/sui-common-theme#readme",
   "dependencies": {
-    "fomantic-ui-less": "^2.9.3"
+    "fomantic-ui-less": "^2.9.4"
   },
   "devDependencies": {
     "prettier": "^2.7.1"
